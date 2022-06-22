@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(83, 83, 83);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 900px;
+    margin: auto;
+}
+
+.imagem-principal {
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+#Titulo {
+    text-transform: uppercase;
+    color: rgb(180, 180, 255);
+}
+
+.Subtitulo, .Titulo-de-post {
+    color: rgb(180, 180, 255);
+    
+}
+
+.Titulo-de-post {
+    font-size: 16px;
+    font-style: italic;
+    border-top: 0;
+    border-bottom: 20px;
+}
+
+.post {
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.imagem-post {
+    margin-bottom: 15px;
+    border-radius: 30px;
+    border: 5px solid rgb(143, 2, 143);
+    width: 100%;
+
+}
+
+.conteudo {
+    margin: 20px;
+    margin-left: 0; 
+    color: rgb(230, 230, 230);
+     
+}
+
+.conteudo a {
+    color: rgb(105, 200, 105);
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.rodape {
+    margin: 20px;
+    margin-top: 100px;
+}
+
+.lista-contatos {
+    background-color: rgb(105, 200, 105);
+    border-radius: 20px;
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.lista-contatos li a {
+    text-decoration: none;
+    color: rgb(62, 62, 66); 
+}
+
+.imagem-rodape {
+    padding: 20px;
+    padding-top: 50px;
+    
+}
